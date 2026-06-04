@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<QCARInfo>
+    <TargetSet version="3.4">
+        <AreaTarget version="5.2" bbox="-11.6284 -4.3553 -21.4988 3.6315 1.8342 -4.0578" area="40" targetId="326ddb4a949646cb960c86179c5ac564" name="MambaEntrada001" pathAuthoring="326ddb4a949646cb960c86179c5ac564_authoring.glb" pathOcclusion="326ddb4a949646cb960c86179c5ac564_occlusion.3dt" pathNavMesh="326ddb4a949646cb960c86179c5ac564_navmesh.glb" cloudTarget="false" />
+    </TargetSet>
+</QCARInfo>

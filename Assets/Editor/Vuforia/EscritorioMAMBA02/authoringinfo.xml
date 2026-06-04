@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="27.0" toolVersion="11.4.4">
+<ModelTarget name="EscritorioMAMBA02" targetId="008ca5e9b6b8485ea4c01a481397bd81" version="14.0" toolVersion="11.4.4" bbox="-0.795445 0.00366569 -1.19818 0.707837 2.19953 1.25338" upVector="0 1 0" previewImage="008ca5e9b6b8485ea4c01a481397bd81_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="EscritorioMAMBA02s_assembly" assemblyId="4f9d1f1136c04015ac189011d98e1be7">
+<Part name="EscritorioMAMBA02" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="GuideView_0000" translation="0.0465485 0.99731 3.78855" rotation="AD: 0.999936 0.0349828 -0.344427 190.965" image="EscritorioMAMBA02_GuideView_0000.png" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARInfo>

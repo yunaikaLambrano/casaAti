@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="EscritorioMAMBA02" motionHint="adaptive" trackingMode="car" optimizeTrackingFor="default"/>
+
+</Tracking>
+
+<Assembly name="EscritorioMAMBA02s_assembly" assemblyId="4f9d1f1136c04015ac189011d98e1be7">
+<Part name="EscritorioMAMBA02" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="GuideView_0000" translation="0.0465485 0.99731 3.78855" rotation="AD: 0.999936 0.0349828 -0.344427 190.965" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>

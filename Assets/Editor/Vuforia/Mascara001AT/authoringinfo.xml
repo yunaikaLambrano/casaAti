@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<QCARInfo>
+    <TargetSet version="3.4">
+        <AreaTarget version="5.2" bbox="-1.8250 -4.9721 -24.3788 8.1341 0.8641 -13.6288" area="9" targetId="cf8fbbb9874943cea58db2bcf67ba9a6" name="Mascara001AT" pathAuthoring="cf8fbbb9874943cea58db2bcf67ba9a6_authoring.glb" pathOcclusion="cf8fbbb9874943cea58db2bcf67ba9a6_occlusion.3dt" pathNavMesh="cf8fbbb9874943cea58db2bcf67ba9a6_navmesh.glb" cloudTarget="false" />
+    </TargetSet>
+</QCARInfo>

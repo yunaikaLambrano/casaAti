@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<QCARInfo>
+    <TargetSet version="3.4">
+        <AreaTarget version="5.2" bbox="-12.5523 -3.7521 -16.6839 -0.0588 2.2281 -5.0411" area="32" targetId="d0ff10d265d5467aa4bf570d97148a01" name="MambaSalaArea1" pathAuthoring="d0ff10d265d5467aa4bf570d97148a01_authoring.glb" pathOcclusion="d0ff10d265d5467aa4bf570d97148a01_occlusion.3dt" pathNavMesh="d0ff10d265d5467aa4bf570d97148a01_navmesh.glb" cloudTarget="false" />
+    </TargetSet>
+</QCARInfo>

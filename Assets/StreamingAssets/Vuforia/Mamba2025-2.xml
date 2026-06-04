@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="capa10-TextoEntrada" size="1.000000 1.296859" />
+    <ImageTarget name="capa8" size="1.000000 0.760938" />
+    <ImageTarget name="capa9" size="1.000000 0.744792" />
+    <ImageTarget name="capa7" size="1.000000 0.717188" />
+    <ImageTarget name="capa6" size="1.000000 0.650402" />
+    <ImageTarget name="capa5" size="1.000000 0.650402" />
+    <ImageTarget name="capa4" size="1.000000 0.650402" />
+    <ImageTarget name="capa3" size="1.000000 0.650402" />
+    <ImageTarget name="capa2" size="1.000000 0.650402" />
+    <ImageTarget name="whatsappimage2025-11-25at4" size="1.000000 0.660667" />
+    <ImageTarget name="mamba01" size="1.000000 0.631771" />
+  </Tracking>
+</QCARConfig>

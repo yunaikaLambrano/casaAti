@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QCARInfo>
+    <TargetSet version="36.0" toolVersion="v7.3.1">
+        <ModelTarget name="BarracudaFBX02" targetId="00383afc5575443eb0ab72ca8756465a" version="14.0" toolVersion="v7.3.1" bbox="-0.172810 0.003188 -0.230709 0.177241 0.243409 0.157839" trackingMode="scan" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="yes" />
+    </TargetSet>
+    <Assembly name="BarracudaFBX02" assemblyId="2e9c6537345d43ae90be40e5e8231490">
+        <Part name="BarracudaFBX02" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+</QCARInfo>
