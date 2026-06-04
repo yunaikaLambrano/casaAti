@@ -32,6 +32,11 @@ public class InterfazReal : MonoBehaviour
         print("gruposTodos ");
         SceneManager.LoadScene("gruposTodos");
     }
+    public void IrEscena5()
+    {
+        print("Room001 ");
+        SceneManager.LoadScene("Room001");
+    }
 
 
 }

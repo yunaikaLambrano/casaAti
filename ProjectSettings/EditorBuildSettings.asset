@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/inicio.unity
+    guid: 1667e990027db2141a31dfabbf35e5de
+  - enabled: 1
+    path: Assets/Scenes/Room001.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
     path: Assets/Scenes/escaner.unity
     guid: b02ef9aebf5a4dc488413eeb7465a723
   - enabled: 1
@@ -17,10 +23,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/info_pilon.unity
     guid: e5ebdbe16581afc4ca6a0f78ed2f409f
-  - enabled: 1
-    path: Assets/Scenes/inicio.unity
-    guid: 1667e990027db2141a31dfabbf35e5de
-  - enabled: 1
-    path: Assets/Scenes/Room001.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
