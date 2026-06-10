@@ -5,12 +5,42 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Info_PilonMadera.unity
-    guid: e5ebdbe16581afc4ca6a0f78ed2f409f
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/inicio.unity
     guid: 1667e990027db2141a31dfabbf35e5de
+  - enabled: 1
+    path: Assets/Scenes/Room001.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Info_Balay.unity
+    guid: 179eaa4f764062b4d93a2dffd7808dcf
+  - enabled: 1
+    path: Assets/Scenes/Info_Caldero.unity
+    guid: 1545aeaa91c792242895bd720f02a1d1
+  - enabled: 1
+    path: Assets/Scenes/Info_Loza.unity
+    guid: a2273bbfb99a6554bb1a9d84a12561fb
+  - enabled: 1
+    path: Assets/Scenes/Info_Molino.unity
+    guid: 6b526a322c925744d8a8dd113f99b124
+  - enabled: 1
+    path: Assets/Scenes/Info_Picapanela.unity
+    guid: 8a8821c04d43588489b683487b1cd83e
+  - enabled: 1
+    path: Assets/Scenes/Info_PilonMadera.unity
+    guid: e5ebdbe16581afc4ca6a0f78ed2f409f
+  - enabled: 1
+    path: Assets/Scenes/Info_PlatoPeltre.unity
+    guid: 943dcb38238cd8347b98d82d905957ac
+  - enabled: 1
+    path: Assets/Scenes/Info_Rallador.unity
+    guid: 676944a55a7b6064890e9902e8a376c6
+  - enabled: 1
+    path: Assets/Scenes/Info_tinaja.unity
+    guid: 0be605859962026498b4bafbe6fd7d9f
+  - enabled: 1
+    path: Assets/Scenes/Info_Totumo.unity
+    guid: 09870ba9012dd824cae520b1351a6a7f
   - enabled: 0
     path: Assets/Scenes/MEscaneo_Balay.unity
     guid: 119ee3d6350a33a44b1c2f3a578447df
@@ -41,7 +71,4 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/MEscaneo_Totumo.unity
     guid: a457a83164eefe3418b8796a18aa6d0e
-  - enabled: 0
-    path: Assets/Scenes/Room001.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

@@ -1,38 +1,27 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 using UnityEngine.UI;
-
-[System.Serializable]
-public class Marquilla
-{
-    public string Nombre;
-    public string Apellido;
-    public string Informacion;
-    public string Tecnica;
-}
 
 public class FichasTecnicasCTRL : MonoBehaviour
 {
-
-    [Header("Campos de Texto - TMPro")]
-    public TextMeshProUGUI NombreTMP;
-    public TextMeshProUGUI ApellidoTMP;
-    public TextMeshProUGUI NombreObraTMP;
-    public TextMeshProUGUI TecnicaTMP;
-
+    [Header("Contenedor General")]
     public GameObject FichasContenedor;
+
+    [Header("Barra de Progreso del Audio")]
     public Image BarraProgresoGO;
 
-    public List<Marquilla> Marquillas = new List<Marquilla>();
+    [Header("Marquillas en Imagen")]
+    public List<GameObject> MarquillasImagenes = new List<GameObject>();
 
     private void LateUpdate()
     {
-        print(Eventos.AudioProgreso + "----->>>");
-        BarraProgresoGO.fillAmount = Eventos.AudioProgreso;
+        if (BarraProgresoGO != null)
+        {
+            BarraProgresoGO.fillAmount = Eventos.AudioProgreso;
+        }
     }
+
     public void MostrarFicha()
     {
         FichasContenedor.SetActive(true);
@@ -41,18 +30,38 @@ public class FichasTecnicasCTRL : MonoBehaviour
     public void OcultarFincha()
     {
         FichasContenedor.SetActive(false);
+
+        foreach (GameObject imagen in MarquillasImagenes)
+        {
+            if (imagen != null)
+            {
+                imagen.SetActive(false);
+            }
+        }
+
         Eventos.DetenerSonidos();
     }
+
     private void MostrarFichaTecnica(int queFichaTecnica)
     {
-        int indice = queFichaTecnica;
-        //print(indice+"-+-+-+-+");
         MostrarFicha();
 
-        NombreTMP.text = Marquillas[indice].Nombre;
-        ApellidoTMP.text = Marquillas[indice].Apellido;
-        NombreObraTMP.text = Marquillas[indice].Informacion;
-        TecnicaTMP.text = Marquillas[indice].Tecnica;
+        foreach (GameObject imagen in MarquillasImagenes)
+        {
+            if (imagen != null)
+            {
+                imagen.SetActive(false);
+            }
+        }
+
+        if (queFichaTecnica >= 0 && queFichaTecnica < MarquillasImagenes.Count)
+        {
+            MarquillasImagenes[queFichaTecnica].SetActive(true);
+        }
+        else
+        {
+            Debug.LogWarning("Índice de marquilla fuera de rango: " + queFichaTecnica);
+        }
     }
 
     private void OnEnable()
@@ -64,5 +73,4 @@ public class FichasTecnicasCTRL : MonoBehaviour
     {
         Eventos.MostrarFichaTecnica -= MostrarFichaTecnica;
     }
-
 }

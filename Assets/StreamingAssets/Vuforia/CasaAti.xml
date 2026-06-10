@@ -2,6 +2,14 @@
 <QCARConfig>
   <Tracking>
     <ImageTarget name="ralladorcasaati" size="1.000000 1.000000" />
-    <ImageTarget name="pruebatinajatarget" size="1.000000 1.000000" />
+    <ImageTarget name="tinajatarget" size="1.000000 1.000000" />
+    <ImageTarget name="totumocasaati" size="1.000000 1.000000" />
+    <ImageTarget name="platopeltrecasaati" size="1.000000 1.000000" />
+    <ImageTarget name="piloncasaati" size="1.000000 1.000000" />
+    <ImageTarget name="picapanelacasaati" size="1.000000 1.000000" />
+    <ImageTarget name="molinocasaati" size="1.000000 1.000000" />
+    <ImageTarget name="lozacasaati" size="1.000000 1.000000" />
+    <ImageTarget name="calderocasaati" size="1.000000 1.000000" />
+    <ImageTarget name="balaycasaati" size="1.000000 1.000000" />
   </Tracking>
 </QCARConfig>
