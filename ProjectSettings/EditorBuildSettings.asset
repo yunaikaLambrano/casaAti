@@ -5,22 +5,43 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
+    path: Assets/Scenes/Info_PilonMadera.unity
+    guid: e5ebdbe16581afc4ca6a0f78ed2f409f
+  - enabled: 0
     path: Assets/Scenes/inicio.unity
     guid: 1667e990027db2141a31dfabbf35e5de
-  - enabled: 1
+  - enabled: 0
+    path: Assets/Scenes/MEscaneo_Balay.unity
+    guid: 119ee3d6350a33a44b1c2f3a578447df
+  - enabled: 0
+    path: Assets/Scenes/MEscaneo_Caldero.unity
+    guid: 2efa508a601619b4ebe19ffa41fc54b5
+  - enabled: 0
+    path: Assets/Scenes/MEscaneo_Loza.unity
+    guid: dedc945f881b50c499ca387a816f31d7
+  - enabled: 0
+    path: Assets/Scenes/MEscaneo_Molino.unity
+    guid: f221897f1ab10794a9db9e9f2b36ee32
+  - enabled: 0
+    path: Assets/Scenes/MEscaneo_Picapanela.unity
+    guid: 1f355bb45dc7cb443a73836b1f4def65
+  - enabled: 0
+    path: Assets/Scenes/MEscaneo_PilonMadera.unity
+    guid: f5f85c04ff9f25e44bbbf79c18f61dc5
+  - enabled: 0
+    path: Assets/Scenes/MEscaneo_PlatoPeltre.unity
+    guid: b02ef9aebf5a4dc488413eeb7465a723
+  - enabled: 0
+    path: Assets/Scenes/MEscaneo_Rallador.unity
+    guid: 006abe5c2ae4db04fbe7ab5c2e5dd4df
+  - enabled: 0
+    path: Assets/Scenes/MEscaneo_Tinaja.unity
+    guid: 809f2f58b826c6e43af6b68305c74565
+  - enabled: 0
+    path: Assets/Scenes/MEscaneo_Totumo.unity
+    guid: a457a83164eefe3418b8796a18aa6d0e
+  - enabled: 0
     path: Assets/Scenes/Room001.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
-    path: Assets/Scenes/escaner.unity
-    guid: b02ef9aebf5a4dc488413eeb7465a723
-  - enabled: 1
-    path: Assets/Scenes/grupo_laborArtesanal.unity
-    guid: b38ac49ca4ab964449a370d3abe83ba2
-  - enabled: 1
-    path: Assets/Scenes/gruposTodos.unity
-    guid: 4b60b1e09d146aa418d7ac82648c80cf
-  - enabled: 1
-    path: Assets/Scenes/info_pilon.unity
-    guid: e5ebdbe16581afc4ca6a0f78ed2f409f
   m_configObjects: {}
