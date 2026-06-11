@@ -31,11 +31,13 @@ public class PlaySounds : MonoBehaviour
             progreso = tiempoActual / duracion;
             ImagenProgreso.fillAmount = progreso;
             Eventos.AudioProgreso = progreso;
-        }else if (progreso == 1)
+        }
+        else if (progreso == 1)
         {
             DetenerSonido1();
             Eventos.AudioProgreso = 0;
-        }else if(progreso == 0)
+        }
+        else if (progreso == 0)
         {
             ImagenProgreso.fillAmount = 0;
         }
